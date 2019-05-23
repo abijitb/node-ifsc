@@ -1,6 +1,6 @@
 {
   "name": "node-ifsc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A package to search bank branch details using IFSC",
   "main": "index.js",
   "scripts": {
