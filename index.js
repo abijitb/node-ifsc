@@ -1,17 +1,15 @@
 const axios = require('axios');
 
-function getIFSC(res, ifsc) {
+function getIFSC(ifsc) {
 
     let url = `https://ifsc.razorpay.com/${ifsc}`
 
     axios.get(url)
         .then((response) => {
-            console.log("BANK DETAILS", response);
-            return res.success("BANK", response);
+            console.log("BANK DETAILS", response.data);
         })
         .catch((error) => {
-            console.log("ERROR node-ifsc", error.response);
+            console.log("ERROR node-ifsc", error);
         })
 }
-
 module.exports = getIFSC;
