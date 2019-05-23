@@ -1,6 +1,6 @@
 {
   "name": "node-ifsc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A package to search bank branch details using IFSC",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "url": "git+https://github.com/abijitb/node-ifsc.git"
   },
   "keywords": [
+    "npm-ifsc",
     "node-ifsc",
     "ifsc-node",
     "node-bank",
