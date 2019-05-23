@@ -1,0 +1,34 @@
+{
+  "name": "node-ifsc",
+  "version": "1.0.0",
+  "description": "A package to search bank branch details using IFSC",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-ifsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abijitb/node-ifsc.git"
+  },
+  "keywords": [
+    "node-ifsc",
+    "ifsc-node",
+    "node-bank",
+    "node-bank-branch",
+    "ifcs-bank",
+    "ifsc-bank-branch",
+    "node-ifsc-bank-branch",
+    "ifsc-bank-name",
+    "node-ifsc-name",
+    "node-ifsc-bank-name"
+  ],
+  "author": "Abijit Biswas <abhijitb.2204@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abijitb/node-ifsc/issues"
+  },
+  "homepage": "https://github.com/abijitb/node-ifsc#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
